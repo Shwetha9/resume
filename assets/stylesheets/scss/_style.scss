@@ -1,0 +1,312 @@
+html,body
+{
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	margin-top: 82px;
+}
+
+.row
+{
+	max-width: 85em;
+}
+.standard-background
+{
+	height:auto;
+	width: 100%;
+	padding: 1.8em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.main-color1, label, .icon-bar > * i, h2, .blue, .fa-user, h3, .fa-certificate, .fa-envelope, .contact, .icon-wrapper>a>i:hover
+{
+	color: #34A5C2;
+}
+
+.main-color2, .schoolname, ul.skills-1>li, ul.skills-2>li, h1, .whoAmI, .light-yellow, .fa-pencil-square, .subHeadings, .fa-graduation-cap, .alternateh2
+{
+	color:#EEF4D6;
+}
+
+.icon-wrapper>a>i
+{
+	color: #2e2d2e;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.icon-wrapper
+{
+	border: 1px solid #2e2d2e;
+	border-radius: 12px;
+	padding: 0.2em;
+	width: 20%;
+	margin: 0 auto;
+}
+
+.icon-wrapper:hover
+{
+	background-color: #34A5C2;
+}
+
+label, 
+{
+	font-family: 'cooper_hewittlight';
+	font-size: 1.5em;
+}
+
+ul.skills-1>li
+{
+	font-family: 'cooper_hewittlight';
+	text-align: left;
+	margin-left: 38%;
+}
+ul.skills-2>li
+{
+	font-family: 'cooper_hewittlight';
+	text-align: left;
+	margin-left: 32%;
+}
+
+.icon-bar > * i
+{
+	font-size: 2.5em;
+}
+
+
+
+#one
+{
+	background-color: #34A5C2;
+	height:600px;
+	width: 100%;
+}
+
+.circle
+{
+background: url('../../img/profile.png');
+height: 200px;
+width: 200px;
+margin: 0 auto;
+margin-top: 40px;
+}
+h1
+{
+	font-family: 'Limelight', cursive;
+	font-size: 5.25em;
+	text-align: center;
+}
+.whoAmI, .schoolname
+{
+	font-size: 1.25em;
+	font-family: 'cooper_hewittlight';
+	text-align: center;
+}
+h2
+{
+	font-size: 4.25em;
+	font-family: 'Limelight', cursive;
+	text-align: center;
+
+}
+
+
+h3
+{
+	text-align: center;
+	font-family: 'cooper_hewittbook';
+}
+
+
+/*chevron animaion*/
+@-webkit-keyframes hover {
+  50% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes hover {
+  50% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+.fa-chevron-up
+{
+		color: #5C5C5C;
+}
+
+ .fa-hand-o-right
+{
+	display: inline-block;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transform: translateY(-6px);
+  transform: translateY(-6px);
+  -webkit-animation-name: hover;
+  animation-name: hover;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+/*chevron animaion ends--*/
+
+.fa-graduation-cap
+{
+transform:rotate(-30deg);
+-ms-transform:rotate(-30deg); /* IE 9 */
+-webkit-transform:rotate(-30deg); /* Opera, Chrome, and Safari */
+}
+
+.alternateh2
+{
+	font-size: 4.25em;
+	font-family: 'Limelight', cursive;
+	text-align: center;
+}
+
+
+
+.h3
+{
+	font-size: 1.6875rem;
+	text-align: left;
+}
+
+h6
+{
+	 font-family: 'cooper_hewittlight';
+	 font-size: 1.25em;
+	 color: #292929;
+	 opacity: 0.9;
+}
+/*custom Button styling*/
+.myButtons {
+  @include button(rem-calc(12), #EEF4D6, 40px, false, false, false);
+  margin: 10px;
+  width: 180px;
+  padding-top: 0.9125rem;
+}
+
+.myButtons:hover
+{
+	background-color: #34A5C2;
+}
+.buttonWrap
+{
+text-align: center;
+}
+
+.subHeadings
+{
+	text-align: center;
+	font-family: 'cooper_hewittbook';
+	font-size: 1.6875rem;
+}
+
+#two
+{
+	background-color: #EEF4D6;
+}
+
+#two-a
+{
+	background-color: #EEF4D6;
+}
+#two-b
+{
+	background-color: #34A5C2;
+}
+#three
+{
+	background-color: #34A5C2;
+}
+#three-a
+{
+	background-color: #EEF4D6;
+}
+
+
+.aboutMe
+{
+	background-color: #34A5C2;
+	padding:2em;
+	border-radius: 30px;
+	text-align: left;
+	line-height: 1.75em;
+	color: #EEF4D6;
+	width: 80%;
+	margin: 0 auto;
+}
+.aboutMe, .experience
+{
+	font-family: 'cooper_hewittlight';
+
+}
+ul
+{
+	text-align: left;
+}
+li
+{
+	list-style-type: square;
+}
+.experience, .detail,
+{
+text-align: left;
+font-family: 'cooper_hewittbook';
+font-size: 1em;
+max-width: 1400px;
+width: 480px;
+}
+
+.heading 
+{
+	font-family: 'cooper_hewittmedium';
+	font-size: 1.1em;
+	text-align: left;
+}
+
+.detail
+{
+line-height: 1.75em;
+}
+
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { 
+
+body
+{
+	margin-top: 82px;
+}
+
+}
+
+
